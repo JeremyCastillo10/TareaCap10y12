@@ -1,0 +1,35 @@
+﻿<Window x:Class="Ejercicio_3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ejercicio_3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="400">
+    <Grid>
+    <StackPanel Orientation="Vertical" Margin="10,10,10,0" Height="300" VerticalAlignment="Top">
+
+            <Label Content="Lado 1"></Label>
+            <StackPanel Orientation="Horizontal">
+                <TextBox x:Name="L1txt" Height="18" Width="300"></TextBox>
+            </StackPanel>
+            <Label Content="Lado 2"></Label>
+            <StackPanel Orientation="Horizontal">
+                <TextBox x:Name="L2txt" Height="18" Width="300"></TextBox>
+            </StackPanel>
+            <Label Content="Lado 3"></Label>
+            <StackPanel Orientation="Horizontal">
+                <TextBox x:Name="L3txt" Height="18" Width="300"></TextBox>
+            </StackPanel>
+            <Label Content="Perimetro"></Label>
+            <StackPanel Orientation="Horizontal">
+                <TextBox x:Name="Perimetrotxt" Height="18" Width="300"></TextBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Button  Content="  Calcular  " Margin="10,10,0,0" Height="30" Click="ButtonClick_Calcular" ></Button>
+            </StackPanel>
+
+        </StackPanel>
+
+    </Grid>
+</Window>
